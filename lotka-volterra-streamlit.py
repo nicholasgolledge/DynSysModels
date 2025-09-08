@@ -162,9 +162,9 @@ if 'results' in st.session_state:
         
         # Create time series plot
         fig1, ax1 = plt.subplots(figsize=(10, 6))
-        ax1.plot(results['t'], results['x'], label='Prey', color='green', linewidth=2)
-        ax1.plot(results['t'], results['y'], label='Predator 1', color='red', linewidth=2)
-        ax1.plot(results['t'], results['z'], label='Predator 2', color='blue', linewidth=2)
+        ax1.plot(results['t'], results['x'], label='Prey', color='tan', linewidth=2)
+        ax1.plot(results['t'], results['y'], label='Predator 1', color='firebrick', linewidth=2)
+        ax1.plot(results['t'], results['z'], label='Predator 2', color='steelblue', linewidth=2)
         ax1.set_xlabel('Time')
         ax1.set_ylabel('Population Size')
         ax1.set_title('Population Dynamics')
